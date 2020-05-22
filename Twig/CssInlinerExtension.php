@@ -8,7 +8,7 @@ use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
  * Twig Extension containing the CssInliner Twig tag.
  *
  * @package default
- * @author Marcel Eschmann, @eschmar
+ * @author Marcel Eschmann, https://twitter.com/eschmar
  **/
 class CssInlinerExtension extends \Twig_Extension {
 
@@ -16,7 +16,7 @@ class CssInlinerExtension extends \Twig_Extension {
      * Returns the name of the extension.
      *
      * @return string
-     * @author Marcel Eschmann, @eschmar
+     * @author Marcel Eschmann, https://twitter.com/eschmar
      **/
     public function getName() {
         return 'css_inliner_extension';
@@ -26,7 +26,7 @@ class CssInlinerExtension extends \Twig_Extension {
      * Returns the token parser instances to add to the existing list.
      *
      * @return array(Twig_Node)
-     * @author Marcel Eschmann, @eschmar
+     * @author Marcel Eschmann, https://twitter.com/eschmar
      **/
     public function getTokenParsers() {
         return array(
